@@ -10,28 +10,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body class="noto-serif-font max-w-[1440px] bg-gray-100 mx-auto my-5">
+<body class="noto-serif-font lg:max-w-[1440px] bg-gray-100 mx-auto my-5">
     <!-- shop name and nav bar -->
-    <header class="mx-auto " >
-        <section class="flex justify-between items-center mx-auto max-w-[1140px]">
-            <h1 class="text-5xl text-black font-bold "> Hero <span class="text-[#E95A08] ">Flowers Shop</span></h1>
+    <header class="lg:mx-auto " >
+        <section class="lg:flex justify-between items-center mx-auto max-w-[1140px]">
+            <h1 class="lg:text-5xl text-black font-bold "> Hero <span class="text-[#E95A08] ">Flowers Shop</span></h1>
             <div >
                 <nav class=" ">
-                    <ul class="flex gap-6">
+                    <ul class="lg:flex gap-6">
                         <li><a href="">Home</a></li>
                         <li><a href="">Shop</a></li>
                         <li><a href="">About us</a></li>
-                        <img class="w-6 h-6 flex" src="./assets/shopping-cart.png" alt=""> 
+                        <img class="lg:w-6 h-6 flex" src="./assets/shopping-cart.png" alt=""> 
                         <li><a href="">Cart (56$)</a></li>
                     </ul>
                 </nav>
             </div>
         </section>
         <!-- banner section -->
-        <section class="flex justify-between items-center max-w-[1140px] my-20 mx-auto">
+        <section class="lg:flex justify-between items-center max-w-[1140px] my-20 mx-auto">
             <div class="">
-                <h1 class="text-6xl text-black font-bold">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
-                <p class="text-1xl">
+                <h1 class="lg:text-6xl text-black font-bold">ALWAYS <span class="lg:text-[#E95A08]">FRESH FLOWERS</span></h1>
+                <p class="lg:text-1xl">
                     Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
                 </p>
             </div>
@@ -40,12 +40,12 @@
     </header>
     <main class="">
         <!-- Plants Section -->
-         <div class="max-w-[1140px] my-20 mx-auto">
-            <h1 class="text-6xl text-black font-bold text-center"><span class="text-[#E95A08]">Our</span> Plants</h1>
-            <p class="text-1xl max-w-[888px] mx-auto max text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+         <div class="lg:max-w-[1140px] my-20 mx-auto ">
+            <h1 class="lg:text-6xl text-black font-bold text-center mb-10"><span class="text-[#E95A08]">Our</span> Plants</h1>
+            <p class="lg:text-1xl max-w-[888px] mx-auto max text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
          </div>
          <!-- plant cards -->
-          <div class="max-w-[1140px] mx-auto grid grid-cols-4 mb-40">
+          <div class="lg:max-w-[1140px] mx-auto grid grid-cols-4 mb-40">
                 <div class="w-[270px] my-2.5">
                     <img class="w-fit" src="./assets/sample-flower-image.png" alt="">
                     <h2 class="text-2xl text-black">Lily Blossom</h2>
@@ -96,11 +96,11 @@
                 </div>
           </div>
           <!-- plant lover section -->
-           <section class="max-w-[1140px] mx-auto flex gap-16 items-center">
-                <img class="max-w-[540px]" src="./assets/flower-store.png" alt="">
+           <section class="lg:max-w-[1140px] mx-auto flex gap-16 items-center mb-36">
+                <img class="lg:max-w-[540px]" src="./assets/flower-store.png" alt="">
                 <div>
-                    <h1 class="text-5xl font-bold text-black mb-15">Flower & Plants Lover</h1>
-                    <ul class="list-disc pl-5">
+                    <h1 class="lg:text-5xl font-bold text-black mb-15">Flower & Plants Lover</h1>
+                    <ul class="lg:list-disc pl-5">
                         <li class="mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                         <li class="mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                         <li class="mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -108,7 +108,27 @@
                 </div>
            </section>
            <!-- lets deal section -->
-            
+            <section class="max-w-[1140px] mx-auto mb-36">
+                <h1 class="text-6xl text-black font-bold text-center mb-10"><span class="text-[#E95A08]">Latest</span>  Deals</h1>
+                <p class="text-1xl mx-auto max text-center max-w-[888px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                <div class="grid lg:grid-cols-[30%_70%] gap-6 ">
+                    <div class="relative mb-0">
+                        <img class="brightness-50 rounded-2xl w-full h-[200px] object-cover" src="./assets/deal-bloom.png" alt="">
+                        <h2 class="absolute bottom-75 left-15 text-white text-xl font-bold">60% Off | Bloom Plant</h2>
+                        <h2 class="absolute bottom-65 left-30 underline text-white text-xl font-bold">Shop Now</h2>
+                    </div>
+                    <div class="relative">
+                        <img class="brightness-50 rounded-2xl w-full row-span-2 h-[400px]  " src="./assets/deal-zabo.png" alt="">
+                        <h2 class="absolute bottom-50 left-70 text-white text-xl font-bold">25% Off | Zabo Plant</h2>
+                        <h2 class="absolute bottom-40 left-85 underline text-white text-xl font-bold">Shop Now</h2>
+                    </div>
+                    <div class="relative absolute bottom-52">
+                        <img class="bottom-11 brightness-50 rounded-2xl w-full h-full object-cover" src="./assets/deal-ana.png" alt="">
+                        <h2 class="absolute bottom-22 left-15 text-white text-xl font-bold">30% Off | Ana  Plant</h2>
+                        <h2 class="absolute bottom-15 left-30 underline text-white text-xl font-bold">Shop Now</h2>
+                    </div>
+                </div>
+            </section>
     </main>
 </body>
 </html>
