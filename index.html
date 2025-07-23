@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hero Flower Shop</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="noto-serif-font max-w-[1440px] bg-gray-200 mx-auto my-5">
+    <!-- shop name and nav bar -->
+    <header class="mx-auto bg-amber-200 " >
+        <section class="flex justify-between items-center mx-auto max-w-[1140px]">
+            <h1 class="text-5xl text-black font-bold "> Hero <span class="text-[#E95A08] ">Flowers Shop</span></h1>
+            <div >
+                <nav class="flex gap-6 ">
+                    <ul><a href="">Home</a></ul>
+                    <ul><a href="">Shop</a></ul>
+                    <ul><a href="">About us</a></ul>
+                    <img class="w-6 h-6 flex" src="./assets/shopping-cart.png" alt=""> 
+                    <ul><a href="">Cart (56$)</a></ul>
+                </nav>
+            </div>
+        </section>
+        <!-- banner section -->
+        <section class="flex justify-between items-center max-w-[1140px] my-20 mx-auto">
+            <div class="">
+                <h1 class="text-5xl text-black font-bold">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
+                <p>
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+                </p>
+            </div>
+            <img src="./assets/hero-flower.png" alt="banner image">
+        </section>
+    </header>
 </body>
 </html>
