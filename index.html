@@ -96,7 +96,7 @@
                 </div>
           </div>
           <!-- plant lover section -->
-           <section class="lg:max-w-[1140px] mx-auto flex gap-16 items-center mb-36">
+           <section class="lg:max-w-[1140px] mx-auto flex gap-16 items-center relative mb-36">
                 <img class="lg:max-w-[540px]" src="./assets/flower-store.png" alt="">
                 <div>
                     <h1 class="lg:text-5xl font-bold text-black mb-15">Flower & Plants Lover</h1>
@@ -105,30 +105,85 @@
                         <li class="mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                         <li class="mb-8">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     </ul>
+                    <img class="absolute bottom-100 left-90 w-[286px]" src="./assets/trusted-badge.png" alt="">
                 </div>
            </section>
            <!-- lets deal section -->
-            <section class="max-w-[1140px] mx-auto mb-36">
+            <section class="lg:max-w-[1140px] place-items-center mx-auto lg:mx-auto mb-36">
                 <h1 class="text-6xl text-black font-bold text-center mb-10"><span class="text-[#E95A08]">Latest</span>  Deals</h1>
-                <p class="text-1xl mx-auto max text-center max-w-[888px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-                <div class="grid lg:grid-cols-[30%_70%] gap-6 ">
-                    <div class="relative mb-0">
-                        <img class="brightness-50 rounded-2xl w-full h-[200px] object-cover" src="./assets/deal-bloom.png" alt="">
-                        <h2 class="absolute bottom-75 left-15 text-white text-xl font-bold">60% Off | Bloom Plant</h2>
-                        <h2 class="absolute bottom-65 left-30 underline text-white text-xl font-bold">Shop Now</h2>
+                <p class="text-1xl mx-auto max text-center mb-14 max-w-[888px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                
+                <div class="grid grid-cols-1 w-fit lg:grid lg:grid-cols-[30%_70%] lg:mx-auto relative  lg:gap-6 lg:justify-between">
+                    <div class="mb-5 lg:mb-0">
+                        <img class="brightness-50 lg:h-full rounded-2xl" src="./assets/deal-bloom.png" alt="">
+                        <div class="relative">
+                            <div class="text-center absolute bottom-18 left-15">
+                                <h2 class="text-white text-xl font-bold">60% Off | Bloom Plant</h2>
+                                <h2 class="underline text-white text-xl font-bold">Shop Now</h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="relative">
-                        <img class="brightness-50 rounded-2xl w-full row-span-2 h-[400px]  " src="./assets/deal-zabo.png" alt="">
-                        <h2 class="absolute bottom-50 left-70 text-white text-xl font-bold">25% Off | Zabo Plant</h2>
-                        <h2 class="absolute bottom-40 left-85 underline text-white text-xl font-bold">Shop Now</h2>
+                    <div class="row-span-2 ">
+                        <img class="brightness-50 w-[367px] lg:w-[98%] rounded-2xl" src="./assets/deal-zabo.png" alt="">
+                        <div class="relative">
+                            <div class="absolute bottom-15 left-8 lg:text-center lg:absolute lg:bottom-45 lg:left-60">
+                                <h2 class="text-white text-3xl font-bold">25% Off | Zabo Plant</h2>
+                                <h2 class="underline text-white text-2xl font-bold">Shop Now</h2>
+                            </div>
+                        </div>
                     </div>
-                    <div class="relative absolute bottom-52">
-                        <img class="bottom-11 brightness-50 rounded-2xl w-full h-full object-cover" src="./assets/deal-ana.png" alt="">
-                        <h2 class="absolute bottom-22 left-15 text-white text-xl font-bold">30% Off | Ana  Plant</h2>
-                        <h2 class="absolute bottom-15 left-30 underline text-white text-xl font-bold">Shop Now</h2>
+                    <div class="mt-5 lg:mt-0">
+                        <img class="brightness-50 lg:h-full rounded-2xl" src="./assets/deal-ana.png" alt="">
+                        <div class="relative">
+                            <div class="text-center absolute bottom-18 left-15">
+                                <h2 class="text-white text-xl font-bold">30% Off | Ana  Plantt</h2>
+                                <h2 class="underline text-white text-xl font-bold">Shop Now</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
+                <!-- join section -->
+             <section class="lg:max-w-[1440px] mb-24 ">
+                <div class="bg-cover h-[533px] w-auto lg:w-[1440px] flex flex-col justify-center items-center" style="background-image: url(./assets/news-letter-bg.png);">
+                    <h1 class="text-5xl text-white text-center font-bold mb-10">Join the colorful Bunch</h1>
+                    <form>
+                        <input class="bg-white lg:w-[830px] h-12 lg:pl-5" type="email" name="" id="" placeholder="Write Email">
+                        <button class="bg-orange-500 text-white h-12 w-50">Subscribe</button>
+                    </form>
+                </div>
+             </section>
     </main>
+    <!-- footer section -->
+    <footer class="mx-auto p-10  lg:flex lg:flex-row max-w-[1140px] lg:mx-auto lg:mb-30 justify-between items-start gap-5">
+        <div class="max-w-[360px]">
+            <h1 class="text-5xl mb-5 text-black font-bold "> Hero <span class="text-[#E95A08] ">Flowers Shop</span></h1>
+            <p class="text-1xl text-gray-600">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+        </div>
+        <div>
+            <ul class="text-gray-600">
+                <li class="mb-5"><a href="">Home</a></li>
+                <li class="mb-5"><a href="">About Us</a></li>
+                <li class="mb-5"><a href="">Blog</a></li>
+                <li class="mb-5"><a href="">FAQ</a></li>
+                <li class="mb-5"><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="text-gray-600">
+                <li class="mb-5"><a href="">Feature</a></li>
+                <li class="mb-5"><a href="">Pricing</a></li>
+                <li class="mb-5"><a href="">Privacy Policy</a></li>
+                <li class="mb-5"><a href="">Terms of Service</a></li>
+                <li class="mb-5"><a href="">Help Center</a></li>
+            </ul>
+        </div>
+        <div class="flex items-start mr-40 w-10 gap-4 h-10">
+            <img src="./assets/icon-linkedin.png" alt="">
+            <img src="./assets/icon-twitter.png" alt="">
+            <img src="./assets/icon-facebook.png" alt="">
+            <img src="./assets/icon-youtube.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
